@@ -6,7 +6,7 @@ body{
     justify-content: center;
 }
 .calc{
-    height: auto;
+    height: 700px;
     width: auto;
     border: solid black;
     display: flex;
@@ -32,14 +32,27 @@ body{
 }
 .numberGrid{
     flex: 1;
-    border: solid black;
     height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
 
     
 }
+
+
+
 .functionsGrid{
     flex:1;
-    border: solid black;  
-      height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
 
-}
+};
+
+.grid-item, .operator-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+};
