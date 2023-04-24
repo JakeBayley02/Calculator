@@ -14,40 +14,40 @@ body{
     align-items: center;
 }
 
-.result{
+.display{
     border: solid black;
     width: 30vw;
-    height: 20vh;
-    margin: 10px 10px 0px 10px;
-
+    height: 150px;
+    margin: 10px;
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 15px;
+    
+    
 }
 
 .container{
     display: flex;
-    height: 40vh;
+    height: 550px;
     width: 30vw;
     margin: 10px;
 
 
 }
-.numberGrid{
+.numberGrid, .functionsGrid{
     flex: 1;
     height: auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 5px;
+    margin: 0;
 
     
 }
 
-
-
-.functionsGrid{
-    flex:1;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    height: auto;
-
-};
 
 .grid-item, .operator-item{
     display: flex;
